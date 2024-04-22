@@ -16,3 +16,6 @@ docker-compose exec app diesel migration generate create_crates
 // add database to those .sql files
 
 docker-compose exec app diesel migration run
+
+
+docker-compose exec app cargo run
